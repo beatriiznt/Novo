@@ -1,0 +1,270 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+
+.logo > img {
+    width: 140px;
+    margin: 5px;
+
+    margin-left: 15px;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    background-color: #58B19F;
+	
+    
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+
+}
+
+nav > div {
+   margin-left: 20px;
+   margin-right: 20px;	
+}
+
+nav > div > a {
+	text-decoration: none;
+	font-size: larger;
+	color: #dff9fb;
+}
+
+nav > div > a:hover{
+	color: #78e08f;
+
+
+}
+.banner{
+	width: 100%;
+	height: 750px;
+}
+.banner > img {
+	width: 100%;
+	max-height: 750px;
+}
+
+.slogan {
+	font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 61%;
+    left: 26%;
+}
+.polpas{
+	padding: 30px;
+	background-color: #F8EFBA;
+}
+.secaoFrutas{
+	padding: 30px;
+	background-color: #58B19F;
+}
+.secaoMudas{
+	padding: 30px;
+	background-color: #dfe6e9;
+}
+.sobre{
+	padding: 30px;
+	background-color: #F8EFBA;
+}
+
+.sabor, .frutas, .mudas {
+	min-height: 300px;
+	min-width: 250px;
+	padding: 15px;
+}
+
+center > h1{
+  color: green;
+  font-size: 35px;
+}
+center > div{
+	color: orange;
+
+}
+.s01{
+	background-image: url("../imagens/graviola.jpg");
+}
+.s02{
+	background-image: url("../imagens/caju.PNG");
+}
+.s03{
+	background-image: url("../imagens/Maracuja.jpg");
+}
+.s04{
+	background-image: url("../imagens/acerola (1).jpg");
+}
+.s05{
+	background-image: url("../imagens/Uva (1).png");
+}
+.s06{
+	background-image: url("../imagens/tamarino (1).jpg");
+}
+.s07{
+	background-image: url("../imagens/goiaba.jpg");
+}
+.s08{
+	background-image: url("../imagens/manga (1).jpg");
+}
+.saborRows, .rowFrutas, .mudasRow{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.s01, .s08{
+	flex: 2;
+}
+.s02, .s03, .s04,.s05, .s06, .s07{
+	flex: 1;
+} 
+ 
+ .s01, .s02, .s03, .s04, .s05,  .s05, .s06, .s07, .s08, .f01, .f02, .f03, .m01, .m02, .m03{
+ 	border: 1px solid blue;
+ 	border-radius: 10px;
+
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+ 	display: flex;
+ 	align-items: flex-end;
+ 	justify-content: center;
+
+ 	font-size: x-large;
+ 	font-weight: bolder;
+
+ 	margin: 10px;
+ 	color: #009432;
+ }
+
+ .f01{
+   background-image: url("../imagens/frutaBanana.png");
+ }
+.f02{
+  background-image: url("../imagens/frutaGoiaba (1).jpg");
+}
+.f03{
+  background-image: url("../imagens/frutaMamao.png");
+}
+.f01, .f02, .f03, .m01, .m02, .m03, .missao, .visao, .valores{
+	flex:1 ;
+
+}
+
+.m01{
+   background-image: url("../imagens/mudaGoiaba (1).jpg");
+ }
+.m02{
+  background-image: url("../imagens/mudaGraviola (1).jpg");
+}
+.m03{
+  background-image: url("../imagens/mudaMaracuja (1).jpg");
+}
+
+.descricao{
+	text-align: center;
+	font-size: 20px;
+}
+.descricao > h2{
+	color: green;
+	margin: 10px;
+}
+.descricao > h4{
+	color: orange;
+	margin: 10px;
+}
+.descricao > div{
+	margin: 10px;
+
+}
+
+.missaoVisaoValores{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.missao, .visao, .valores{
+	padding: 10px;
+	
+	min-width: 300px;
+	height: 200px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.missao > h2, .visao > h2, .valores > h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: green;
+
+}
+hr{
+	width: 15%;
+	height: 2px;
+	margin: auto;
+    background-color: gray;
+	margin-bottom: 15px;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	font-size: 20px;
+}
+ .rodape > .col-1, .rodape >.col-2, .rodape > .col-3{
+ 	flex: 1;
+    min-width: 300px;
+    height: 350px;
+    text-align: center;
+ }
+ .rodape > .col-1 > img {
+ 	margin-bottom: 15px;
+
+ }
+
+ .rodape > .col-1 > p {
+ 	margin-bottom: 15px;
+ }
+ .rodape > .col-2 > h2 {
+ 	margin-top: 15px;
+ 	margin-bottom: 40px;
+ }
+
+  .rodape > .col-2 > p {
+ 	margin-bottom: 15px;
+ }
+
+ .subRodape{ 
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: center;
+
+ height: 40px;
+
+ background-color: black;
+ color: white;
+ font-size: 18px;
+}
+
+.subRodape > .col-2 > a {
+ text-decoration: none;
+ margin: 5px;
+ color: white;
+}
